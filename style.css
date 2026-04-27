@@ -5,28 +5,41 @@ body {
     color: white;
 }
 
-nav {
+/* NAV */
+.nav {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 30px;
     background: #08131f;
 }
 
-nav a {
+.nav a {
     color: white;
-    margin-left: 15px;
+    margin-left: 20px;
     text-decoration: none;
 }
 
+/* HERO */
 .hero {
     text-align: center;
-    padding: 60px 20px;
+    padding: 80px 20px;
     background: linear-gradient(#0b1c2c, #123a5a);
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #00aaff;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SLIDER */
 .slider {
     position: relative;
-    height: 250px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -43,34 +56,55 @@ nav a {
     opacity: 1;
 }
 
-.services {
+/* PRICING */
+.pricing {
+    text-align: center;
+    padding: 40px;
+}
+
+.price-box {
+    background: #142f46;
+    margin: 15px auto;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* FEATURES */
+.features {
     display: flex;
     justify-content: space-around;
-    padding: 30px;
+    padding: 40px;
 }
 
 .card {
     background: #142f46;
     padding: 20px;
     border-radius: 10px;
-    width: 30%;
 }
 
+/* CTA */
 .cta {
     text-align: center;
     padding: 40px;
 }
 
-.btn {
-    background: #00aaff;
-    padding: 15px 25px;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
     background: #08131f;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
 }
