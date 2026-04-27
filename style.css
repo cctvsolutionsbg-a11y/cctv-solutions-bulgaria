@@ -108,3 +108,7 @@ footer {
     border-radius: 50%;
     text-decoration: none;
 }
+.content {
+    padding: 40px;
+    text-align: center;
+}
