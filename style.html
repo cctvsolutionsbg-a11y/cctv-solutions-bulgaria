@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b1c2c;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #08131f;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(#0b1c2c, #123a5a);
+}
+
+.slider {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: 1s;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.card {
+    background: #142f46;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px;
+}
+
+.btn {
+    background: #00aaff;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #08131f;
+}
